@@ -3,6 +3,10 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+import { library } from '@fortawesome/fontawesome-svg-core'
+import fab from '@fortawesome/free-brands-svg-icons'
+
+library.add(fab)
 
 (function($) {
 
@@ -73,7 +77,7 @@
 				breakpoints.on('<=medium', function() {
 
 					$window.off('scroll.strata_parallax');
-					$header.css('background-position', '');
+					// $header.css('background-position', '');
 
 				});
 
@@ -82,7 +86,7 @@
 					$header.css('background-position', 'left 0px');
 
 					$window.on('scroll.strata_parallax', function() {
-						$header.css('background-position', 'left ' + (-1 * (parseInt($window.scrollTop()) / settings.parallaxFactor)) + 'px');
+						// $header.css('background-position', 'left ' + (-1 * (parseInt($window.scrollTop()) / settings.parallaxFactor)) + 'px');
 					});
 
 				});

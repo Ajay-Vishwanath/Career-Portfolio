@@ -1073,7 +1073,7 @@ $size-header-pad: 4em;
 		@include vendor('align-items', 'flex-end');
 		@include vendor('justify-content', 'space-between');
 		background-color:		_palette(accent2, bg);
-		background-attachment:	scroll,								scroll;
+		background-attachment:	fixed;
 		background-image:		url('images/overlay.png'),			url('../../images/bg.jpg');
 		background-position:	top left,							top left;
 		background-repeat:		repeat,								no-repeat;
@@ -1337,7 +1337,7 @@ $size-header-pad: 4em;
 		}
 
 		#header {
-			background-attachment:	scroll;
+			background-attachment:	fixed;
 			background-size:		auto, cover;
 		}
 
@@ -1443,7 +1443,7 @@ $size-header-pad: 4em;
 		/* Header */
 
 			#header {
-				background-attachment:	scroll;
+				background-attachment:	fixed;
 				background-position:	top left,	center center;
 				background-size:		auto,		cover;
 				left: auto;
