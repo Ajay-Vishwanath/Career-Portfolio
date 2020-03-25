@@ -3239,14 +3239,17 @@ input, select, textarea {
 		border-bottom: none; 
 	}
 
+
 	.section-lists ul{
-		display: flex; 
-		padding: none; 
+		display: flex;
+		flex-wrap: wrap;
+		padding: none;
 	}
 
 	.skill-icons{
 		list-style: none; 
 		padding-left: none; 
+		padding-top: 1.5em;
 	}
 
 	.skill-icons i{
