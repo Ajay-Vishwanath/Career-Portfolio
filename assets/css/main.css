@@ -3261,6 +3261,7 @@ input, select, textarea {
 		display: flex;
 		flex-wrap: wrap;
 		padding: 0 0 0 1em;
+		margin: 0 0 1em 0;
 	}
 
 	.skill-icons{
