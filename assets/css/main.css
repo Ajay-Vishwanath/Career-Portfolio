@@ -2992,6 +2992,10 @@ input, select, textarea {
 				font-size: 12pt;
 			}
 
+			.skill-icons i{
+				padding-right: 6vw;
+			}
+
 	}
 
 /* Large */
@@ -3204,6 +3208,11 @@ input, select, textarea {
 				padding-right: .9em;
 			}
 
+			.skill-icons i{
+				font-size: 3.5em;
+				padding-right: 10vw;
+			}
+
 	}
 
 /* XSmall */
@@ -3268,7 +3277,6 @@ input, select, textarea {
 
 	.skill-icons i{
 		font-size: 3.5em;
-		padding-right: 10vw;
 	}
 
 	#form-submit{
